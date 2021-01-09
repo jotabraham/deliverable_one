@@ -108,8 +108,10 @@ h2, p, button {
         height: auto;
         margin: -150px 0;
     }
-
+    
     button {
-        width: 100px;
+        width: auto;
+        /*width: 100px; mathces style guide in look but not in specifications*/
     }
+    
 }
