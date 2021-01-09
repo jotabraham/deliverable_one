@@ -71,7 +71,10 @@ h2, p, button {
     display: none;
 }
 
+/* Styles for screens wider than 768px */
+
 @media only screen and (min-width: 768px) {
+
     header {
         flex-direction: row;
         justify-content: space-between;
@@ -93,6 +96,7 @@ h2, p, button {
 
     #image {
         display: inline-flex;
+        z-index: -1;
     }
 
     #text-box {
